@@ -10,13 +10,32 @@ export default function App() {
 
       <Cabecalho/>
         <Botao
-        logo="game-controller" 
+        Logo="game-controller" 
         texto="Jogos"
         cor="green"
-        Logo2= "game-controller"
-        texto2="Meus jogos"
+        Logo2= "book"
+        texto2="Livros"
         cor2="blue"
         />
+
+<Botao
+        Logo="musical-note-outline" 
+        texto="Musicas" 
+        cor="red"
+        Logo2="camera-sharp"
+        texto2="Camera"
+        cor2="purple"
+        />
+
+<Botao
+        Logo="game-controller" 
+        texto="Jogos"
+        cor="blue"
+        Logo2="calculator"
+        texto2="Mensagem"
+        cor2="pink"
+        />
+
 
     </View>
 
